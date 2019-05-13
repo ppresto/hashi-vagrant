@@ -1,0 +1,21 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "ppresto/SLES12sp1"
+  config.vm.box_version = "0.1"
+  #config.vm.box_url = "file:////Users/i838855/Projects/packer/images/virtualbox-mySuseVM.box"
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  #
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   sudo apt-get update
+  #   sudo apt-get install -y apache2
+  # SHELL
+
+  #config.vm.provision 'shell', path: './scripts/webserver.sh'
+  #config.vm.provider "virtualbox" do |vb|
+  #   vb.gui = true
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024"
+ #end
+end

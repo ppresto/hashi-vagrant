@@ -1,0 +1,495 @@
+{
+  "name": "vagrant-2012-r2.oak.sap.corp",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 2,
+        "vendor_id": "GenuineIntel",
+        "family": "2",
+        "model": "17921",
+        "stepping": "1",
+        "physical_id": "CPU0",
+        "model_name": "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "description": "Intel64 Family 6 Model 70 Stepping 1",
+        "mhz": "2794",
+        "cache_size": " KB"
+      },
+      "total": 2,
+      "cores": 2,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 64055406,
+        "kb_available": 51154092,
+        "kb_used": 12901314,
+        "percent_used": 20,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": "Windows 2012 R2"
+      },
+      "E:": {
+        "kb_size": 59494,
+        "kb_available": 0,
+        "kb_used": 59494,
+        "percent_used": 100,
+        "mount": "E:",
+        "fs_type": "cdfs",
+        "volume_name": "VBOXADDITIONS_5."
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "9600",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows Server 2012 R2 Standard",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "VAGRANT-2012-R2",
+        "current_time_zone": -420,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 3,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "1175184",
+        "free_space_in_paging_files": "1125248",
+        "free_virtual_memory": "2403112",
+        "install_date": "20150113012702.000000-480",
+        "large_system_cache": null,
+        "last_boot_up_time": "20170926133841.156105-420",
+        "local_date_time": "20170926150809.849000-420",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows Server 2012 R2 Standard|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 35,
+        "number_of_users": 1,
+        "operating_system_sku": 7,
+        "organization": "Vagrant",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 272,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 3,
+        "registered_user": "",
+        "serial_number": "00252-00105-69793-AA339",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "1179648",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "3276340",
+        "total_visible_memory_size": "2096692",
+        "version": "6.3.9600",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows Server 2012 R2 Standard",
+      "release": "6.3.9600",
+      "version": "6.3.9600  Build 9600",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 3,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "bootup_state": "Normal boot",
+        "caption": "VAGRANT-2012-R2",
+        "chassis_bootup_state": 3,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": -420,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "vagrant-2012-r2",
+        "domain": "WORKGROUP",
+        "domain_role": 2,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 3,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 3,
+        "last_load_info": null,
+        "manufacturer": "innotek GmbH",
+        "model": "VirtualBox",
+        "name": "VAGRANT-2012-R2",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 2,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "vboxVer_5.1.28",
+          "vboxRev_117968"
+        ],
+        "part_of_domain": false,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 3,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Server_NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "2147012608",
+        "user_name": "VAGRANT-2012-R2\\vagrant",
+        "wake_up_type": 6,
+        "workgroup": "WORKGROUP"
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "1179648kB",
+        "free": "1125264kB"
+      },
+      "total": "2096692kB",
+      "free": "1174676kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xc": {
+          "configuration": {
+            "ip_address": [
+              "10.0.2.15",
+              "fe80::e488:b85c:5262:ff86"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000010] Intel(R) PRO/1000 MT Desktop Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "10.0.2.2"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Intel(R) PRO/1000 MT Desktop Adapter",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "20170927133845.000000-420",
+            "dhcp_lease_obtained": "20170926133845.000000-420",
+            "dhcp_server": "10.0.2.2",
+            "dns_domain": "oak.sap.corp",
+            "dns_domain_suffix_search_order": [
+              "oak.sap.corp"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "vagrant-2012-r2",
+            "dns_server_search_order": [
+              "10.0.2.3"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 10,
+            "interface_index": 12,
+            "ip_connection_metric": 10,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "08:00:27:D5:9D:5A",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "E1G60",
+            "setting_id": "{DD72B02C-4E48-4924-8D0F-F80EA2755534}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": 64240,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000010] Intel(R) PRO/1000 MT Desktop Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Intel(R) PRO/1000 MT Desktop Adapter",
+            "device_id": "10",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{DD72B02C-4E48-4924-8D0F-F80EA2755534}",
+            "index": 10,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 12,
+            "last_error_code": null,
+            "mac_address": "08:00:27:D5:9D:5A",
+            "manufacturer": "Intel",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Intel(R) PRO/1000 MT Desktop Adapter",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_8086&DEV_100E&SUBSYS_001E8086&REV_02\\3&267A616A&1&18",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Intel(R) PRO/1000 MT Desktop Adapter",
+            "service_name": "E1G60",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "VAGRANT-2012-R2",
+            "time_of_last_reset": "20170926133841.156105-420"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "10.0.2.15": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "10.0.2.255",
+              "family": "inet"
+            },
+            "fe80::e488:b85c:5262:ff86": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "08:00:27:D5:9D:5A": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "10.0.2.2": "52:54:00:12:35:02",
+            "10.0.2.3": "52:54:00:12:35:03",
+            "10.0.2.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "10.0.2.2",
+      "default_interface": "0xc"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "10.0.2.15",
+    "macaddress": "08:00:27:D5:9D:5A",
+    "ip6address": "fe80::e488:b85c:5262:ff86",
+    "os": "windows",
+    "os_version": "6.3.9600",
+    "platform": "windows",
+    "platform_version": "6.3.9600",
+    "platform_family": "windows",
+    "uptime_seconds": 5369,
+    "uptime": "1 hours 29 minutes 29 seconds",
+    "virtualization": {
+      "systems": {
+        "vbox": "guest"
+      },
+      "system": "vbox",
+      "role": "guest"
+    },
+    "languages": {
+      "perl": {
+        "version": "5.8.8",
+        "archname": "msys-64int"
+      },
+      "powershell": {
+        "version": "4.0",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.33440",
+        "build_version": "6.3.9600.16384",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0"
+        ],
+        "remoting_protocol_version": "2.2"
+      },
+      "ruby": {
+        "platform": "i386-mingw32",
+        "version": "2.4.1",
+        "release_date": "2017-03-22",
+        "target": "i386-w64-mingw32",
+        "target_cpu": "i386",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "i686-w64-mingw32",
+        "host_cpu": "i686",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/opscode/chefdk/embedded/bin",
+        "ruby_bin": "C:/opscode/chefdk/embedded/bin/ruby",
+        "gems_dir": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0",
+        "gem_bin": "C:/opscode/chefdk/embedded/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "13.2.20",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "13.2.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.2.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "cloud": null,
+    "command": {
+
+    },
+    "hostname": "vagrant-2012-r2",
+    "machinename": "VAGRANT-2012-R2",
+    "fqdn": "vagrant-2012-r2.oak.sap.corp",
+    "domain": "oak.sap.corp",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1506463691.693675,
+    "packages": {
+      "Oracle VM VirtualBox Guest Additions 5.1.28": {
+        "version": "5.1.28.0",
+        "publisher": "Oracle Corporation"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.16.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20170926"
+      },
+      "Bitvise SSH Server 6.07 (remove only)": {
+
+      },
+      "Chef Development Kit v2.0.28": {
+        "version": "2.0.28.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20170926"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "Pacific Daylight Time"
+    },
+    "recipes": [
+      "learn_chef_iis",
+      "learn_chef_iis::default"
+    ],
+    "expanded_run_list": [
+      "learn_chef_iis::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "learn_chef_iis": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[learn_chef_iis]"
+  ]
+}
